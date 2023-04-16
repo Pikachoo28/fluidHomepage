@@ -1,0 +1,106 @@
+@media screen and (max-width: 1400px) and (min-width: 1024px) {
+    .row-pt-100 {
+        padding-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .real-life .section-title h2 {
+        font: normal normal bold 40px/46px Barlow Condensed;
+    }
+
+    .brew-guide .brew-guide-img {
+        width: 400px;
+    }
+
+    .img-1-contain,
+    .img-2-contain,
+    .img-3-contain,
+    .img-4-contain,
+    .img-5-contain,
+    .img-6-contain {
+        max-height: 100%;
+        max-width: 100%;
+
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .hero-banner {
+        height: 600px;
+    }
+
+    .hero-banner .banner-block h1 {
+        font-size: 52px;
+        line-height: 60px;
+    }
+
+    .hero-banner .banner-block {
+        height: auto;
+    }
+
+    .brew-guide .brew-guide-img {
+        position: relative;
+        right: 15px;
+        top: 15px;
+        width: 100%;
+    }
+
+    .brew-guide .bg-light-blue {
+        width: 100%;
+    }
+
+    .brew-guide .brew-guide-top {
+        position: absolute;
+        top: -74px;
+        right: 0;
+    }
+
+    .img-3-contain {
+        display: none;
+    }
+
+    .best-sellers .seller-card {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-banner .banner-block {
+        width: auto;
+        top: 40%;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .hero-banner .banner-block h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .hero-banner .banner-block h5 {
+        margin-bottom: 24px;
+    }
+
+    .hero-banner .banner-block .clip {
+        width: 195px;
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    .img-4-contain,
+    .img-4-contain {
+        display: none;
+    }
+
+    .real-life .img-6-contain {
+        height: auto;
+    }
+
+    .real-life {
+        padding: 20px 0px 20px 0px;
+    }
+}
