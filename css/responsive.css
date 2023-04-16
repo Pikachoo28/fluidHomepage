@@ -26,6 +26,18 @@
 }
 
 @media only screen and (max-width: 992px) {
+    .navbar .navbar-collapse{
+        margin-top: 20px;
+        
+    }
+    .navbar .navbar-collapse ul li{
+        width: 100%;
+    }
+    header .nav-link {
+        padding: 12px 0px !important;
+        width: 100%;
+        text-align: left;
+    }
     .hero-banner {
         height: 600px;
     }
